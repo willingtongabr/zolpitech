@@ -1,0 +1,135 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": [
+        "Oi",
+        "Olá",
+        "E aí",
+        "Bom dia",
+        "Boa tarde",
+        "Boa noite",
+        "Oi, tudo bem?",
+        "Olá, como vai?",
+        "Oi, você pode me ajudar?",
+        "E aí, tudo certo?"
+      ],
+      "responses": [
+        "Oi! Tudo bem? Como posso te ajudar hoje?",
+        "Olá! Em que posso ser útil?",
+        "Oi! Pode falar comigo, estou aqui para ajudar.",
+        "Olá! O que você precisa?"
+      ]
+    },
+    {
+      "tag": "buscar_hospital",
+      "patterns": [
+        "Preciso de um hospital",
+        "Onde tem hospital perto?",
+        "Me ajuda com um hospital",
+        "Tem algum hospital por aqui?",
+        "Estou passando mal, onde posso ir?",
+        "Qual o hospital mais próximo?",
+        "Onde encontro um hospital urgente?",
+        "Pode me indicar um hospital próximo?",
+        "Preciso de atendimento hospitalar",
+        "Quero saber onde tem hospital perto de mim"
+      ],
+      "responses": [
+        "Entendi! Por favor, me informe sua localização (bairro, cidade ou use o botão para enviar sua localização).",
+        "Claro! Pode me dizer onde você está para eu buscar os hospitais mais próximos?",
+        "Para encontrar um hospital perto de você, preciso saber sua localização.",
+        "Me informe sua localização para que eu possa buscar hospitais próximos.",
+        "Pode enviar sua localização para que eu te ajude a encontrar um hospital?"
+      ]
+    },
+    {
+      "tag": "buscar_farmacia",
+      "patterns": [
+        "Preciso de uma farmácia",
+        "Onde tem farmácia perto?",
+        "Tem alguma farmácia por aqui?",
+        "Estou sem remédio, onde posso comprar?",
+        "Farmácia mais próxima?",
+        "Pode me indicar uma farmácia?",
+        "Onde compro remédios perto de mim?",
+        "Preciso achar uma farmácia urgente",
+        "Me ajude a encontrar farmácia",
+        "Quero saber onde tem farmácia próxima"
+      ],
+      "responses": [
+        "Claro! Me diga sua localização (bairro, cidade ou CEP) para buscar farmácias próximas.",
+        "Pode me informar onde você está para encontrar farmácias perto?",
+        "Para ajudar, preciso saber sua localização.",
+        "Envie sua localização para que eu possa procurar farmácias próximas.",
+        "Por favor, compartilhe sua localização para que eu encontre farmácias próximas a você."
+      ]
+    },
+    {
+      "tag": "informar_localizacao",
+      "patterns": [
+        "Eu moro no centro de São Paulo",
+        "Estou em Campinas",
+        "Fico em Salvador",
+        "Estou na zona norte do Rio",
+        "Meu bairro é Boa Viagem",
+        "CEP 01310-200",
+        "Minha localização é Avenida Paulista",
+        "Estou próximo ao parque central",
+        "Moro perto da estação de metrô",
+        "Estou no bairro Jardim América"
+      ],
+      "responses": [
+        "Perfeito! Procurando os locais mais próximos para você...",
+        "Localização recebida! Já estou buscando as melhores opções perto de você.",
+        "Obrigado pela informação, estou encontrando os locais próximos.",
+        "Beleza! Vou verificar o que tem por perto.",
+        "Recebi sua localização, vou buscar os locais disponíveis."
+      ]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": [
+        "Obrigado",
+        "Valeu",
+        "Muito obrigado",
+        "Agradecido",
+        "Obrigadão",
+        "Obrigado pela ajuda",
+        "Valeu mesmo",
+        "Obrigado, você é demais",
+        "Agradeço pela atenção",
+        "Muito obrigado pela ajuda"
+      ],
+      "responses": [
+        "De nada! Qualquer coisa, chama aqui.",
+        "Tamo junto! Espero ter ajudado.",
+        "Disponha! Sempre que precisar, é só chamar.",
+        "Fico feliz em ajudar! Conte comigo.",
+        "À disposição! Qualquer dúvida, só falar."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Tchau",
+        "Falou",
+        "Até mais",
+        "Boa noite",
+        "Até logo",
+        "Até a próxima",
+        "Vou nessa",
+        "Nos vemos",
+        "Fique bem",
+        "Obrigado, até depois"
+      ],
+      "responses": [
+        "Até logo! Se cuida!",
+        "Tchau! Melhoras e boa recuperação.",
+        "Até mais! Estou por aqui quando precisar.",
+        "Boa noite! Fique bem.",
+        "Até a próxima! Estou à disposição."
+      ]
+    }
+  ]
+}
